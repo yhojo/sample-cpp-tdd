@@ -5,7 +5,7 @@ include(ExternalProject)
 
 ExternalProject_Add(
         GoogleTest
-        URL https://github.com/google/googletest/archive/release-1.8.0.zip
+        URL https://github.com/google/googletest/archive/release-1.8.1.zip
         PREFIX ${CMAKE_CURRENT_BINARY_DIR}/lib
         INSTALL_COMMAND ""
         LOG_DOWNLOAD ON
